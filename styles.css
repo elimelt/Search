@@ -1,0 +1,47 @@
+body {
+  background-color: grey;
+}
+
+.container {
+  position: relative;
+}
+.container .links {
+  position: relative;
+  text-align: right;
+  margin-right: 5px;
+}
+.container h1 {
+  position: relative;
+  text-align: center;
+  font-size: 50px;
+  margin-top: 250px;
+}
+.container table {
+  margin-top: 200px;
+  border-spacing: 10px;
+}
+.container table tr td {
+  margin: 10px;
+}
+.container .search_bar {
+  text-align: center;
+  margin-top: 50px;
+}
+.container .search_bar input[type=text] {
+  width: 500px;
+  height: 30px;
+  border: 1px black;
+  border-style: solid;
+  border-radius: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 10px;
+}
+.container .search_bar input[type=submit] {
+  width: 100px;
+  height: 20px;
+  border: 1px rgb(0, 0, 0);
+  border-style: solid;
+  border-radius: 30px;
+  margin: 10px;
+}/*# sourceMappingURL=styles.css.map */
